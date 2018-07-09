@@ -18,7 +18,7 @@ puts subtract(10,4)
 def sum(lesinfosarecuperer)
 
 	if lesinfosarecuperer == [] 
-		puts 0
+		return 0
 		else
 		result = 0
 		lesinfosarecuperer.each do |uneinforecuperee|
@@ -29,7 +29,7 @@ def sum(lesinfosarecuperer)
 		# result = uneinforecuperee + result
 		
 		end
-		return result unless result.nil?
+		return result #unless result.nil?
 	end	
 end
 puts sum([])
